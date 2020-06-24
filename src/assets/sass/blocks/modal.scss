@@ -1,0 +1,23 @@
+.modal__content {
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+
+    background-color: $white;
+    box-shadow: $shadow;
+    border-radius: $radius_sm;
+}
+
+.modal__close {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+
+    background: none;
+    border: 0;
+
+    position: absolute;
+    top: -2.2rem;
+    right: -2.2rem;
+    z-index: 1;
+}
