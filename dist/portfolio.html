@@ -15,7 +15,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     
-    <title>HomePage</title>
+    <title>Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
@@ -116,36 +116,65 @@
     <div class="content">
         
         
+        
+        
         <div class="container">
-            <div class="intro">
-                <div class="intro__text">Меня завут</div>
-                <div class="intro__title">Алексей Хлыбов</div>
-                <div class="intro__subtitle">я занимаюсь <span class="intro__subtitle-pink">веб-дизайном</span> и <span class="intro__subtitle-pink">созданием сайтов</span></div>
+            <h1 class="content__title">Портфолио</h1>
         
-               <div class="row">
-                   <div class="col-lg-3">
-                        <a class="btn  btn--pink" href="#" data-toggle="modal" data-target="#request-modal">Оставить заявку</a>
-                   </div>
+            <div class="portfolio">
         
-                   <div class="col-lg-9">
-                       <ul class="contacts">
-                           <li class="contacts__item">
-                               <a href="tel:+79852320447" class="contacts__link">+7 (985) 232-04-47</a>
-                           </li>
-                           <li class="contacts__item">
-                               <a href="mailto:hello@inweb.com" class="contacts__link">hello@inweb.com</a>
-                           </li>
-                       </ul>
-                   </div>
-               </div><!-- /.row -->
+               <button class="portfolio__arrow  portfolio__arrow--prev" type="button" id="portfolio-arrow-prev">
+                   <svg class="portfolio__arrow-icon">
+                        <use xlink:href="#arrow-right"></use>
+                   </svg>
+               </button>
         
-            </div><!-- /.intro -->
+               <button class="portfolio__arrow  portfolio__arrow--next" type="button" id="portfolio-arrow-next">
+                    <svg class="portfolio__arrow-icon">
+                        <use xlink:href="#arrow-right"></use>
+                   </svg>
+               </button>
+        
+                <div class="portfolio__slider" id="portfolio">
+                    <div>
+                        <div class="portfolio__item">
+                           <a class="portfolio__link" href="#" target="_blank">
+                            <img class="portfolio__img" src="assets/img/portfolio/1.jpg" alt="">
+                        </a>
+                            <div class="portfolio__title">Сайт проекта CarTuning.pro</div>
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div class="portfolio__item">
+                           <a class="portfolio__link" href="#" target="_blank">
+                            <img class="portfolio__img" src="assets/img/portfolio/2.jpg" alt="">
+                        </a>
+                            <div class="portfolio__title">Сайт проекта CarTuning.pro</div>
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div class="portfolio__item">
+                           <a class="portfolio__link" href="#" target="_blank">
+                            <img class="portfolio__img" src="assets/img/portfolio/1.jpg" alt="">
+                        </a>
+                            <div class="portfolio__title">Сайт проекта CarTuning.pro</div>
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div class="portfolio__item">
+                           <a class="portfolio__link" href="#" target="_blank">
+                            <img class="portfolio__img" src="assets/img/portfolio/2.jpg" alt="">
+                        </a>
+                            <div class="portfolio__title">Сайт проекта CarTuning.pro</div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div><!-- /.portfolio -->
         </div><!-- /.container -->
-        
-        
-        <img class="author" src="assets/img/man.png" alt="">
-        <div class="circle"></div>
-        
         
     </div>
 
