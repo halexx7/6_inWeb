@@ -12,6 +12,14 @@
     right: 2rem;
     bottom: 5rem;
     z-index: 1;
+
+    @media (max-width: $breakpoint_xl) {
+        right: 0;
+    }
+
+    @media (max-width: $breakpoint_sm) {
+        display: none;
+    }
 }
 
 @keyframes circleRadius {
